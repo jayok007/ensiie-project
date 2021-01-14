@@ -14,8 +14,8 @@ RUN apt-get update -qq \
     && curl -sS http://getcomposer.org/installer | php -- --filename=composer \
     && chmod a+x composer \
     && mv composer /usr/local/bin/composer \
-    && composer -q global require "hirak/prestissimo:^0.3" \
-    && composer -q global require "phing/phing:^2.16" \
+    && composer -q global require "hirak/prestissimo" \
+    && composer -q global require "phing/phing" \
     && ln -s /root/.composer/vendor/phing/phing/bin/phing /usr/bin/phing \
     && apt-get clean \
     && mkdir /nginx \
