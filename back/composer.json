@@ -1,8 +1,8 @@
 {
-    "name": "Backend rest api",
+    "name": "ensiie/backend_rest_api",
     "description": "A simple backend rest api to provide endpoint for trouvemonbar",
     "require-dev": {
-        "kahlan/kahlan": "^4.3"
+        "kahlan/kahlan": "^5.0"
     },
     "autoload": {
         "psr-4": {

@@ -16,7 +16,7 @@ class Base64Url
     {
         $base64 = str_replace(['-', '_'], ['+', '/'], $base64Url);
 
-        $pad = sizeof($base64) % 4;
+        $pad = strlen($base64) % 4;
         if ($pad == 2) {
             $base64 .= '==';
         } else if ($pad === 3) {

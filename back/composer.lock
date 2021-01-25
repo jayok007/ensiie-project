@@ -1,31 +1,31 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0d99f40192bee0d9b6955f6430f02ba6",
+    "content-hash": "994bbcc7ed2626b3dcecbaede59dbfe6",
     "packages": [],
     "packages-dev": [
         {
             "name": "kahlan/kahlan",
-            "version": "4.3.1",
+            "version": "5.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kahlan/kahlan.git",
-                "reference": "92dbe4691f2f3049523cc525365a1a0be0c86db9"
+                "reference": "9a0a7af971e33264da9de231669b9b3de69475ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kahlan/kahlan/zipball/92dbe4691f2f3049523cc525365a1a0be0c86db9",
-                "reference": "92dbe4691f2f3049523cc525365a1a0be0c86db9",
+                "url": "https://api.github.com/repos/kahlan/kahlan/zipball/9a0a7af971e33264da9de231669b9b3de69475ab",
+                "reference": "9a0a7af971e33264da9de231669b9b3de69475ab",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5"
+                "php": ">=7.1"
             },
             "require-dev": {
-                "squizlabs/php_codesniffer": "^2.7"
+                "squizlabs/php_codesniffer": "^3.4"
             },
             "bin": [
                 "bin/kahlan"
@@ -59,7 +59,11 @@
                 "testing",
                 "unit test"
             ],
-            "time": "2018-09-28T15:39:00+00:00"
+            "support": {
+                "issues": "https://github.com/kahlan/kahlan/issues",
+                "source": "https://github.com/kahlan/kahlan/tree/5.0.6"
+            },
+            "time": "2021-01-24T21:18:07+00:00"
         }
     ],
     "aliases": [],
@@ -68,5 +72,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
 }
